@@ -17,5 +17,5 @@ public class Person
     public int Age { get; set; }
     
     // Navigation
-    public ICollection<Subscription> Subscriptions { get; set; }
+    public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
 }

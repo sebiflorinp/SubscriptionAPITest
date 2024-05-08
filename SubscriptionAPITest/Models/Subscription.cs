@@ -16,6 +16,6 @@ public class Subscription
     
     // Navigation
     public int PersonId { get; set; }
-    
-    public ICollection<Person> Persons { get; set; }
+
+    public Person Person { get; set; } = null!;
 }
